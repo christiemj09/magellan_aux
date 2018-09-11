@@ -2,6 +2,10 @@
 Functions to help write features.
 """
 
+import unicodedata
+
+import numpy as np
+
 # Normalization
 
 def ascii_uppercase_alphanum(s, decoding='utf-8'):
