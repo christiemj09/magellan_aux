@@ -8,7 +8,7 @@ import py_entitymatching as em
 
 def read_pair_csv_with_metadata(
         pair_filename, tuple_filename,
-        pairs_key, tuples_key,
+        pair_key, tuple_key,
         pair_dtype={}, tuple_dtype={}
     ):
     # Way to inject dtype parameter into native? For now, do it "by hand"
